@@ -86,23 +86,3 @@ const Home  = () =>{
 }
 
 export default Home;
-
-{/* <div className='w-full md:w-1/2 h-full flex flex-col text-white justify-center items-center gap-7 text-3xl font-mono font-extrabold'>
-                        <div>
-                            <p>Hi There,</p>
-                        </div>
-                        <div>
-                            <p className='text-white'>I'm Mohamed haddaoui</p>
-                        </div>
-                        <div>
-                            <MessageWriter />
-                        </div>
-                        <div className='flex gap-8'>
-                            <a href="https://github.com/mhaddaou" target="_blank" rel="noopener noreferrer">
-                                <FontAwesomeIcon className='w-10 h-10' icon={faGithub} beat style={{color: "#072469"}} />
-                            </a>
-                            <a href="https://www.linkedin.com/in/mohamed-haddaoui-26b28423a/" target="_blank" rel="noopener noreferrer"> 
-                                <FontAwesomeIcon className='w-10 h-10' icon={faLinkedin} beat style={{color: "#072469",}} />
-                            </a>
-                        </div>
-                    </div> */}

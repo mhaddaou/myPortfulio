@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.d09eac17.css",
+    "main.js": "/static/js/main.5ca20bae.js",
+    "static/js/512.125ea300.chunk.js": "/static/js/512.125ea300.chunk.js",
+    "static/media/mhaddaou.jpg": "/static/media/mhaddaou.147d494651f910173e7f.jpg",
+    "static/media/about.png": "/static/media/about.6adcda896aeb8bdf7648.png",
+    "index.html": "/index.html",
+    "main.d09eac17.css.map": "/static/css/main.d09eac17.css.map",
+    "main.5ca20bae.js.map": "/static/js/main.5ca20bae.js.map",
+    "512.125ea300.chunk.js.map": "/static/js/512.125ea300.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d09eac17.css",
+    "static/js/main.5ca20bae.js"
+  ]
+}
