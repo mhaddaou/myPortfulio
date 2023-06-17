@@ -32,23 +32,18 @@ const Home  = () =>{
                     <Navbar />
                 </div>
                 <div className='w-full h-[90%] bg-slae-400 flex flex-col md:flex-row gap-4 md:gap-0' >
-                    <div className='w-full md:w-1/2 h-1/2 md:h-full bg-ble-400'>
-                        <Lottie className=' w-full h-full md:w-[85%] md:h-[85%]' animationData={anim} />
+                    <div className='w-full md:w-1/2 h-1/2 md:h-full bg-ble-400 flex justify-center items-center'>
+                        <Lottie className=' w-full h-full  md:w-[70%] md:h-[50%] ' animationData={anim} />
                     </div>
-                    <div className='w-full md:w-1/2 h-1/2 md:h-full bg--300 flex flex-row-reverse md:flex-col gap-14  md:gap-6 justify-center items-center'>
-                        <div className='w-full h-[30%] '>
-                        <div className='w-full flex justify-center'>
-                            <img src={mhaddaou} className=' w-[150px] h-[150px] md:w-[200px] md:h-[200px] rounded-full border-[6px] border-slate-400' alt="" />
-                        </div>
-
-                        </div>
-                        <div className='w-full h-[70%] bg--100 flex flex-col pt-16 md:pt-10  text-white gap-8  text-xl md:text-4xl font-mono font-extrabold'>
+                    <div className='w-full   md:w-1/2 h-1/2 md:h-full bg--300 flex flex-row-reverse md:flex-col gap-14  md:gap-6 justify-center items-center'>
+                        <img src={mhaddaou} className=' hidden md:block w-[150px] h-[150px] md:w-[200px] md:h-[200px] rounded-full border-[6px] border-slate-400' alt="" />
+                        <div className=' bg--100 flex flex-col  md:pt-10  text-white gap-8  text-xl md:text-4xl font-mono font-extrabold'>
                         <div className='w-full flex justify-center'>Hi There,</div>
                         <div className='w-full flex justify-center'>I'm Mohamed haddaoui</div>
                         <div className='w-full flex justify-center'>
                         <MessageWriter />
                         </div>
-                        </div>
+                        </div> 
 
                     </div>
                     
@@ -64,14 +59,16 @@ const Home  = () =>{
                         <img className=' h-full' src={about} alt="" />
                     </div>
                     <div className=' w-full h-1/2 md:w-1/2 md:h-full flex flex-col  justify-center gap-1 md:gap-2 items-center  md:items-start md:text-2xl text-white font-mono font-bold md:pt-10'>
-                        <p>I am Mohamed Haddaoui, a passionate web </p>
-                        <p>developer specializing in front-end</p>
-                        <p>development using React and Next.js. </p>
-                        <p>With a strong foundation in web development</p>
-                        <p> and a drive to continuously learn and grow,</p>
-                        <p> I am ready to take on exciting challenges</p>
-                        <p> and contribute to the ever-evolving world </p>
-                        <p>of web development.</p>
+                        <h1 className=' space-y'>
+                        I am Mohamed Haddaoui, a passionate web 
+                        developer specializing in front-end
+                        development using React and Next.js. 
+                        With a strong foundation in web development
+                         and a drive to continuously learn and grow,
+                         I am ready to take on exciting challenges
+                         and contribute to the ever-evolving world 
+                        of web development.
+                        </h1>
                     </div>
                 </div>
             
@@ -81,8 +78,10 @@ const Home  = () =>{
             </div>
             
             
+            
         </div>
     );
 }
+
 
 export default Home;
